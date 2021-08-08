@@ -66,6 +66,7 @@ public void precondition(){
         app.userHelper().clickLoginButton();
 
         Assert.assertTrue(app.userHelper().isLogged());
+        System.out.println("Hello worlddfhdhddf");
 
     }
     @DataProvider
