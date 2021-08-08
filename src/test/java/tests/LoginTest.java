@@ -51,6 +51,7 @@ public void precondition(){
 
         app.userHelper().acceptAlert();
         Assert.assertFalse(app.userHelper().isLogged());
+        System.out.println("Hello world d,fbvm,dfnv");
 
     }
 
