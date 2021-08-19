@@ -1,6 +1,5 @@
 package manager;
 
-import com.sun.rmi.rmid.ExecPermission;
 import models.User;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
