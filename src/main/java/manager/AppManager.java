@@ -15,6 +15,7 @@ public class AppManager {
     EventFiringWebDriver wd;
     UserHelper userHelper;
     String browser;
+    ContactHelper contact;
 
     public AppManager(String browser) {
         this.browser = browser;
@@ -35,16 +36,18 @@ wd.register(new MyListener());
         wd.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         wd.navigate().to("https://contacts-app.tobbymarshall815.vercel.app/home");
         userHelper =new UserHelper(wd);
-
-
-
+        contact= new ContactHelper(wd);
 
     }
     public void stop(){
-        wd.quit();
+        //wd.quit();
     }
 
     public UserHelper userHelper() {
         return userHelper;
+    }
+
+    public ContactHelper contact() {
+        return contact;
     }
 }

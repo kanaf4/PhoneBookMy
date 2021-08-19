@@ -1,5 +1,6 @@
 package manager;
 
+import com.sun.rmi.rmid.ExecPermission;
 import models.User;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -39,5 +40,13 @@ public class UserHelper extends HelperBase{
         new WebDriverWait(wd,10)
                 .until(ExpectedConditions.visibilityOf(wd.findElement(By.xpath("//button[text()='Sign Out']"))));
         click(By.xpath("//button[text()='Sign Out']"));
+    }
+
+    public void login(User user) {
+        openLoginRegForm();
+        fillLoginRegForm(user);
+        clickLoginButton();
+        pause(1000);
+
     }
 }

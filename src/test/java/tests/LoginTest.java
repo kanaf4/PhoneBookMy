@@ -35,7 +35,6 @@ public void precondition(){
         String loginS = app.userHelper().getText(By.xpath("//a[.='ADD']"));
 
         Assert.assertEquals(loginS,"ADD");
-        System.out.println("Hello world");
 
     }
 
@@ -51,7 +50,6 @@ public void precondition(){
 
         app.userHelper().acceptAlert();
         Assert.assertFalse(app.userHelper().isLogged());
-        System.out.println("Hello world d,fbvm,dfnv");
 
     }
 
@@ -65,8 +63,7 @@ public void precondition(){
         app.userHelper().fillLoginRegForm(user);
         app.userHelper().clickLoginButton();
 
-        Assert.assertTrue(app.userHelper().isLogged());//римьтимьбчисьми
-        System.out.println("Hello worlddfhdhddf");//fhdfhdfhdfhdfhdf
+        Assert.assertTrue(app.userHelper().isLogged());
 
     }
     @DataProvider
