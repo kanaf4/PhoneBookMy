@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="tests.QuickTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-19T19:37:25" hostname="LAPTOP-VN4HCI1U" time="0.001">
+<testsuite name="tests.QuickTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-19T19:45:09" hostname="LAPTOP-VN4HCI1U" time="0.001">
   <properties/>
   <testcase name="quicktest" classname="tests.QuickTest" time="0.001"/>
-  <system-out><![CDATA[22:37:25.097  INFO  tests.TestBase - Start method -->quicktest
-22:37:25.098  INFO  tests.TestBase - Test Start with Data -->[]
-22:37:25.098  INFO  tests.TestBase - ==================================================================
+  <system-out><![CDATA[22:45:09.447  INFO  tests.TestBase - Start method -->quicktest
+22:45:09.448  INFO  tests.TestBase - Test Start with Data -->[]
+22:45:09.448  INFO  tests.TestBase - ==================================================================
 Im Quick test
-22:37:25.100  INFO  tests.TestBase - End of method -->quicktest
+22:45:09.449  INFO  tests.TestBase - End of method -->quicktest
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
